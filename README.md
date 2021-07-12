@@ -1,2 +1,1 @@
-# curso_ml
-# testando
+# curso_machine_learning Coursera
