@@ -1,7 +1,7 @@
 # Curso machine learning Coursera by
 <a href="https://www.coursera.org/learn/machine-learning"><img src="machinelearning.jpg" alt="Book cover" min-width="200px" max-width="200px" width="200px" align="right" border="3"></a>
 <p align="left"> 
-  <strong>Esse Repositório contém atividades do curso de Machine Learning by Stanford University.</strong> <br><br>Todo o curso foi realizado na linguagem python e os exercícios foram retirados desse<a href="https://github.com/dibgerge/ml-coursera-python-assignments"><strong>repositório</strong></a>.
+  <strong>Esse Repositório contém atividades do curso de Machine Learning by Stanford University.</strong> <br><br>Todo o curso foi realizado na linguagem python e os exercícios foram retirados desse<a href="https://github.com/dibgerge/ml-coursera-python-assignments"><strong> repositório</strong></a>.
 </p>
 <p align="left"> 
 Você pode encontrar as respostas nos links abaixo!
