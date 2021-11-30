@@ -1,5 +1,5 @@
 # Curso machine learning Coursera by
-<a href="https://www.coursera.org/learn/machine-learning"><img src="machinelearning.jpg" alt="Book cover" min-width="400px" max-width="400px" width="400px" align="right" border="3"></a>
+<a href="https://www.coursera.org/learn/machine-learning"><img src="machinelearning.jpg" alt="Book cover" min-width="280px" max-width="300px" width="280px" align="right" border="3"></a>
 <p align="left"> 
   <strong>Esse Repositório contém atividades do curso de Machine Learning by Stanford University.</strong> <br><br>Todo o curso foi realizado na linguagem python e os exercícios foram retirados desse<a href="https://github.com/dibgerge/ml-coursera-python-assignments"><strong> repositório</strong></a>.
 </p>
