@@ -51,7 +51,7 @@ def plotData(x, y):
     # =============================================================
 ```
 2. Computing the cost  𝐽(𝜃)
- ```python
+```python
  def computeCost(X, y, theta):
     # initialize some useful values
     m = y.size  # number of training examples
