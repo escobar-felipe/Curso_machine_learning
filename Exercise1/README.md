@@ -31,6 +31,11 @@ u = média
 σ = desvio padrão 
 
 * ### Equação Normal
+ As equações normais são equações obtidas a partida das derivadas parciais da soma dos erros quadrados ( **mínimos quadrados** ).<br>
+ <br><img src="https://latex.codecogs.com/gif.latex?\theta&space;=&space;\left(&space;X^T&space;X\right)^{-1}&space;X^T\vec{y}" title="\theta = \left( X^T X\right)^{-1} X^T\vec{y}" />
+
+Com essa equação você consegue estimar os parâmetros de uma regressão linear sem precisar realizar iterações como no Método do gradiente e não requer nenhum escalonamento (feature scaling).
+
 
 ## Respostas
 
