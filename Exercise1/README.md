@@ -4,10 +4,10 @@ O objetivo da Regressão linear é minimizar a função de custo ( cost function
 Função de perda quadrática:<br>
 <a href="" target="_blank"><img src="https://latex.codecogs.com/gif.latex?J(\theta)&space;=&space;\frac{1}{2m}&space;\sum_{i=1}^m&space;\left(&space;h_{\theta}(x^{(i)})&space;-&space;y^{(i)}\right)^2" title="J(\theta) = \frac{1}{2m} \sum_{i=1}^m \left( h_{\theta}(x^{(i)}) - y^{(i)}\right)^2" /></a>
 
-onde a hipótese $h_\theta(x)$ é  :
-$$ h_\theta(x) = \theta^Tx = \theta_0 + \theta_1 x_1$$
+onde a hipótese <img src="https://latex.codecogs.com/gif.latex?h_\theta(x)" title="h_\theta(x)" /> é  :
+<img src="https://latex.codecogs.com/gif.latex?h_\theta(x)&space;=&space;\theta^Tx&space;=&space;\theta_0&space;&plus;&space;\theta_1&space;x_1" title="h_\theta(x) = \theta^Tx = \theta_0 + \theta_1 x_1" />
 
-Os parâmetros do modelo são valores de $\theta_j$ , esses valores serão ajustados para minimizar a função de perda $J(\theta)$, uma maneira de minimizar a função de perda é o Método do Gradiente.
+Os parâmetros do modelo são valores de <img src="https://latex.codecogs.com/gif.latex?\theta_j" title="\theta_j" /> , esses valores serão ajustados para minimizar a função de perda <img src="https://latex.codecogs.com/gif.latex?J(\theta)" title="J(\theta)" />, uma maneira de minimizar a função de perda é o Método do Gradiente.
 
 
 * ### Método do Gradiente Descendente
