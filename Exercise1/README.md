@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # Regressão Linear
 O objetivo da Regressão linear é minimizar a função de custo ( cost function ) ou função de perda ( loss function ) ,  quando a função de perda $J(\theta)$ possui valor baixo, teremos boas predições em novas observações.
 
