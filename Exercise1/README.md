@@ -4,7 +4,7 @@ O objetivo da Regressão linear é minimizar a função de custo ( cost function
 Função de perda quadrática:<br>
 <a href="" target="_blank"><img src="https://latex.codecogs.com/gif.latex?J(\theta)&space;=&space;\frac{1}{2m}&space;\sum_{i=1}^m&space;\left(&space;h_{\theta}(x^{(i)})&space;-&space;y^{(i)}\right)^2" title="J(\theta) = \frac{1}{2m} \sum_{i=1}^m \left( h_{\theta}(x^{(i)}) - y^{(i)}\right)^2" /></a>
 
-onde a hipótese <img src="https://latex.codecogs.com/gif.latex?h_\theta(x)" title="h_\theta(x)" /> é  :
+onde a hipótese <img src="https://latex.codecogs.com/gif.latex?h_\theta(x)" title="h_\theta(x)" /> é  : <br>
 <img src="https://latex.codecogs.com/gif.latex?h_\theta(x)&space;=&space;\theta^Tx&space;=&space;\theta_0&space;&plus;&space;\theta_1&space;x_1" title="h_\theta(x) = \theta^Tx = \theta_0 + \theta_1 x_1" />
 
 Os parâmetros do modelo são valores de <img src="https://latex.codecogs.com/gif.latex?\theta_j" title="\theta_j" /> , esses valores serão ajustados para minimizar a função de perda <img src="https://latex.codecogs.com/gif.latex?J(\theta)" title="J(\theta)" />, uma maneira de minimizar a função de perda é o Método do Gradiente.
@@ -12,9 +12,9 @@ Os parâmetros do modelo são valores de <img src="https://latex.codecogs.com/gi
 
 * ### Método do Gradiente Descendente
 Gradiente descendente é um algoritmo de otimização que ajusta os parâmetros de forma iterativa com o objetivo de minimizar a função de interesse.
+A cada iteração é atualizado o parâmetro  <img src="https://latex.codecogs.com/gif.latex?\theta_j" title="\theta_j" />  para todos os j<br>
 
- $$\text{A cada iteração é atualizado o parametro }\theta_j  \text{ para todos }j$$
- $$\theta_j = \theta_j - \alpha \frac{1}{m} \sum_{i=1}^m \left( h_\theta(x^{(i)}) - y^{(i)}\right)x_j^{(i)} \qquad $$
+<img src="https://latex.codecogs.com/gif.latex?\theta_j&space;=&space;\theta_j&space;-&space;\alpha&space;\frac{1}{m}&space;\sum_{i=1}^m&space;\left(&space;h_\theta(x^{(i)})&space;-&space;y^{(i)}\right)x_j^{(i)}&space;\qquad" title="\theta_j = \theta_j - \alpha \frac{1}{m} \sum_{i=1}^m \left( h_\theta(x^{(i)}) - y^{(i)}\right)x_j^{(i)} \qquad" /><br>
 
 Cada etapa da descida do gradiente os valores de $\theta_j$ são atualizados convergindo para um mínimo local.
 
@@ -23,9 +23,10 @@ Cada etapa da descida do gradiente os valores de $\theta_j$ são atualizados con
 * ### Feature Normalization
 Algoritmos que utilizam a método do gradiente para otimização como a regressão linear , tendem a convergir para um melhor resultado com dados na mesma ordem de grandeza.
 
-Para realizar a padronização , utiliza-se a fórmula Z-score:
+Para realizar a padronização , utiliza-se a fórmula Z-score:<br>
 
-$$z = \frac {(x - u)}σ$$ 
+<img src="https://latex.codecogs.com/gif.latex?z&space;=&space;\frac&space;{(x&space;-&space;u)}\sigma" title="z = \frac {(x - u)}\sigma" />
+<br>
 u = média 
 σ = desvio padrão 
 
