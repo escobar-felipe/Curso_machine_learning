@@ -1,9 +1,8 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # Regressão Linear
 O objetivo da Regressão linear é minimizar a função de custo ( cost function ) ou função de perda ( loss function ) ,  quando a função de perda $J(\theta)$ possui valor baixo, teremos boas predições em novas observações.
 
 Função de perda quadrática:
-$$ J(\theta) = \frac{1}{2m} \sum_{i=1}^m \left( h_{\theta}(x^{(i)}) - y^{(i)}\right)^2$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=J(\theta)&space;=&space;\frac{1}{2m}&space;\sum_{i=1}^m&space;\left(&space;h_{\theta}(x^{(i)})&space;-&space;y^{(i)}\right)^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?J(\theta)&space;=&space;\frac{1}{2m}&space;\sum_{i=1}^m&space;\left(&space;h_{\theta}(x^{(i)})&space;-&space;y^{(i)}\right)^2" title="J(\theta) = \frac{1}{2m} \sum_{i=1}^m \left( h_{\theta}(x^{(i)}) - y^{(i)}\right)^2" /></a>
 
 onde a hipótese $h_\theta(x)$ é  :
 $$ h_\theta(x) = \theta^Tx = \theta_0 + \theta_1 x_1$$
